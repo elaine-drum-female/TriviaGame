@@ -1,0 +1,51 @@
+html {
+    font-size: 18px;
+    background-image: url("../images/glenn-lim-1273611-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.hiddenContent,
+.results {
+    display: none;
+}
+
+.container {
+    background: yellow;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: blue;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.allDone {
+    font-weight: bold;
+}
+
+.startButton,
+#submit {
+    border: 1px solid blue;
+    width: 150px;
+    background: pink;
+    padding: 10px 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.smallFont {
+    font-size: 14px;
+    display: inline;
+}
+
+#submit {
+    margin-top: 20px;
+}

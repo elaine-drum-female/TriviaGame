@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Total Trivia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Totally Trivial Trivia!</h1>
+        <div class="startContent">
+            <div class="results">
+                <p><span class="allDone"></span></p>
+                <p>Correct Answers: <span class="itsCorrect"></span></p>
+                <p>Incorrect Answers: <span class="wrong"></span></p>
+                <p>Unanswered: <span class="notAnswered"></span></p>
+            </div>
+            <button class="startButton">Start</button>
+        </div>
+        <div class="hiddenContent">
+            <p>Time Remaining: <span class="timeStart">30</span></p>
+            <form id="triviaForm">
+                <p>What was the first full length CGI movie?</p>
+                <input type="radio" name="1" value="A Bug's Life" />
+                <p class="smallFont">A Bug's Life</p>
+                <input type="radio" name="1" value="Monster's Inc" />
+                <p class="smallFont">Monster's Inc</p>
+                <input type="radio" name="1" value="Toy Story" />
+                <p class="smallFont">Toy Story</p>
+                <input type="radio" name="1" value="the Lion King" />
+                <p class="smallFont">the Lion King</p>
+
+                <p>Which of these is NOT a name of one of the Spice Girls?</p>
+                <input type="radio" name="2" value="Sporty Spice" />
+                <p class="smallFont">Sporty Spice</p>
+                <input type="radio" name="2" value="Fred Spice" />
+                <p class="smallFont">Fred Spice</p>
+                <input type="radio" name="2" value="Scary Spice" />
+                <p class="smallFont">Scary Spice</p>
+                <input type="radio" name="2" value="Posh Spice" />
+                <p class="smallFont">Posh Spice</p>
+
+                <p>Which NBA team won the most titles in the 90s?</p>
+                <input type="radio" name="3" value="New York Knicks" />
+                <p class="smallFont">New York Knicks</p>
+                <input type="radio" name="3" value="Portland Trailblazers" />
+                <p class="smallFont">Portland Trailblazers</p>
+                <input type="radio" name="3" value="Los Angeles Lakers" />
+                <p class="smallFont">Los Angeles Lakers</p>
+                <input type="radio" name="3" value="Chicago Bulls" />
+                <p class="smallFont">Chicago Bulls</p>
+
+                <p>Which group released the hit song. "Smells Like Teen Spirit?</p>
+                <input type="radio" name="4" value="Nirvana" />
+                <p class="smallFont">Nirvana</p>
+                <input type="radio" name="4" value="Backstreet Boys" />
+                <p class="smallFont">Backstreet Boys</p>
+                <input type="radio" name="4" value="The Offspring" />
+                <p class="smallFont">The Offspring</p>
+                <input type="radio" name="4" value="No Doubt" />
+                <p class="smallFont">No Doubt</p>
+
+                <p>Which popular Disney movie featured the song, "Circle of Life?"</p>
+                <input type="radio" name="5" value="Aladdin" />
+                <p class="smallFont">Aladdin</p>
+                <input type="radio" name="5" value="Hercules" />
+                <p class="smallFont">Hercules</p>
+                <input type="radio" name="5" value="Mulan" />
+                <p class="smallFont">Mulan</p>
+                <input type="radio" name="5" value="the Lion King" />
+                <p class="smallFont">the Lion King</p>
+
+                <p>Finish this line from the Fresh Prince of Bel-Air theme song: "I <br />whistled for a cab and when
+                    it came near, the license plate said..."</p>
+                <input type="radio" name="6" value="Dice" />
+                <p class="smallFont">Dice</p>
+                <input type="radio" name="6" value="Mirror" />
+                <p class="smallFont">Mirror</p>
+                <input type="radio" name="6" value="Fresh" />
+                <p class="smallFont">Fresh</p>
+                <input type="radio" name="6" value="Cab" />
+                <p class="smallFont">Cab</p>
+
+                <p>What was Doug's best friend's name?"</p>
+                <input type="radio" name="7" value="Skeeter" />
+                <p class="smallFont">Skeeter</p>
+                <input type="radio" name="7" value="Mark" />
+                <p class="smallFont">Mark</p>
+                <input type="radio" name="7" value="Zach" />
+                <p class="smallFont">Zach</p>
+                <input type="radio" name="7" value="Cody" />
+                <p class="smallFont">Cody</p>
+
+                <p>What was the name of the principal at Bayside High in Saved by the Bell?"</p>
+                <input type="radio" name="8" value="Mr. Zhou" />
+                <p class="smallFont">Mr. Zhou</p>
+                <input type="radio" name="8" value="Mr. Diggers" />
+                <p class="smallFont">Mr. Diggers</p>
+                <input type="radio" name="8" value="Mr. Belding" />
+                <p class="smallFont">Mr. Belding</p>
+                <input type="radio" name="8" value="Mr. Page" />
+                <p class="smallFont">Mr. Page</p>
+            </form>
+            <input type="submit" id="submit" value="Done" />
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
