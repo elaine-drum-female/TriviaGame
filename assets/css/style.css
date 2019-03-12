@@ -82,8 +82,7 @@ h5 {
     font-weight: bold;
 }
 
-.startButton,
-#submit {
+#start-button {
     border: 1px solid blue;
     width: 150px;
     background: pink;
