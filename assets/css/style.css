@@ -73,6 +73,10 @@ h5 {
     font-weight: bold;
 }
 
+#results p {
+    font-size:1.2em;
+}
+
 #start-button{
     border: 1px solid blue;
     padding: 10px 30px;
