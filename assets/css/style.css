@@ -68,12 +68,10 @@ body {
     text-align:center;
 }
 
-h1 {
-    color: blue;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    word-spacing: 3px;
+h5 {
+    font-size:1.1em!important;
 }
+
 
 .allDone {
     font-weight: bold;
