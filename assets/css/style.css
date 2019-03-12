@@ -72,15 +72,7 @@ h5 {
     font-weight: bold;
 }
 
-#start-button {
-    border: 1px solid blue;
-    width: 150px;
-    background: pink;
-    padding: 10px 30px;
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: bold;
-}
+
 
 .smallFont {
     font-size: 14px;
