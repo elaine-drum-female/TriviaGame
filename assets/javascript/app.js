@@ -8,14 +8,15 @@ $(document).ready(function () {
     var totalQuestions = 8;
     var completeTotal = totalQuestions.toFixed();
 
-    $('.startButton').click(function () {
-        $('.hiddenContent').show();
-        $('.startContent').hide();
-        $('.startButton').hide();
+    $('#start-button').click(function () {
+        $('#hidden-content').show();
+        $('#start-content').hide();
+        $('#star-button').hide();
+        $("#hidden-content").show();
         startTimer();
     });
 
-    $('#submit').click(function () {
+    $('.center').click(function () {
         event.preventDefault();
         clearInterval(timerInterval);
         endGame();
@@ -29,7 +30,7 @@ $(document).ready(function () {
                 $('.allDone').text("All done!");
                 endGame();
             }
-            $('.timeStart').text(count);
+            $('.time-start').text(count);
         }, 1000)
     }
 
@@ -43,13 +44,11 @@ $(document).ready(function () {
             }
         })
 
-        $('.startContent').show();
-        $('.results').show();
-        $('.hiddenContent').hide();
-
+        $('#start-content').show();
+        $('#results').show();
+        $('#hidden-content').hide();
         $('.itsCorrect').text(correctCount);
         $('.wrong').text(incorrectCount);
-
         $('.notAnswered').text(completeTotal - (correctCount + incorrectCount));
     }
 
