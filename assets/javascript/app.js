@@ -9,9 +9,10 @@ $(document).ready(function () {
     var completeTotal = totalQuestions.toFixed();
 
     $('#start-button').click(function () {
-        $('#hidden-content').show();
+        $('#hidden-content').hide();
         $('#start-content').hide();
-        $('#star-button').hide();
+        $('#start-button').hide();
+        $('h1').hide();
         $("#hidden-content").show();
         startTimer();
     });
