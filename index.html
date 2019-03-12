@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     </script>
-    
+
 </head>
 
 <body>
@@ -34,94 +34,256 @@
                     </div>
                 </div>
             </div>
-        <div class="hiddenContent">
-            <p>Time Remaining: <span class="timeStart">30</span></p>
-            <form id="triviaForm">
-                <p>What was the first full length CGI movie?</p>
-                <input type="radio" name="1" value="A Bug's Life" />
-                <p class="smallFont">A Bug's Life</p>
-                <input type="radio" name="1" value="Monster's Inc" />
-                <p class="smallFont">Monster's Inc</p>
-                <input type="radio" name="1" value="Toy Story" />
-                <p class="smallFont">Toy Story</p>
-                <input type="radio" name="1" value="the Lion King" />
-                <p class="smallFont">the Lion King</p>
-
-                <p>Which of these is NOT a name of one of the Spice Girls?</p>
-                <input type="radio" name="2" value="Sporty Spice" />
-                <p class="smallFont">Sporty Spice</p>
-                <input type="radio" name="2" value="Fred Spice" />
-                <p class="smallFont">Fred Spice</p>
-                <input type="radio" name="2" value="Scary Spice" />
-                <p class="smallFont">Scary Spice</p>
-                <input type="radio" name="2" value="Posh Spice" />
-                <p class="smallFont">Posh Spice</p>
-
-                <p>Which NBA team won the most titles in the 90s?</p>
-                <input type="radio" name="3" value="New York Knicks" />
-                <p class="smallFont">New York Knicks</p>
-                <input type="radio" name="3" value="Portland Trailblazers" />
-                <p class="smallFont">Portland Trailblazers</p>
-                <input type="radio" name="3" value="Los Angeles Lakers" />
-                <p class="smallFont">Los Angeles Lakers</p>
-                <input type="radio" name="3" value="Chicago Bulls" />
-                <p class="smallFont">Chicago Bulls</p>
-
-                <p>Which group released the hit song. "Smells Like Teen Spirit?</p>
-                <input type="radio" name="4" value="Nirvana" />
-                <p class="smallFont">Nirvana</p>
-                <input type="radio" name="4" value="Backstreet Boys" />
-                <p class="smallFont">Backstreet Boys</p>
-                <input type="radio" name="4" value="The Offspring" />
-                <p class="smallFont">The Offspring</p>
-                <input type="radio" name="4" value="No Doubt" />
-                <p class="smallFont">No Doubt</p>
-
-                <p>Which popular Disney movie featured the song, "Circle of Life?"</p>
-                <input type="radio" name="5" value="Aladdin" />
-                <p class="smallFont">Aladdin</p>
-                <input type="radio" name="5" value="Hercules" />
-                <p class="smallFont">Hercules</p>
-                <input type="radio" name="5" value="Mulan" />
-                <p class="smallFont">Mulan</p>
-                <input type="radio" name="5" value="the Lion King" />
-                <p class="smallFont">the Lion King</p>
-
-                <p>Finish this line from the Fresh Prince of Bel-Air theme song: "I <br />whistled for a cab and when
-                    it came near, the license plate said..."</p>
-                <input type="radio" name="6" value="Dice" />
-                <p class="smallFont">Dice</p>
-                <input type="radio" name="6" value="Mirror" />
-                <p class="smallFont">Mirror</p>
-                <input type="radio" name="6" value="Fresh" />
-                <p class="smallFont">Fresh</p>
-                <input type="radio" name="6" value="Cab" />
-                <p class="smallFont">Cab</p>
-
-                <p>What was Doug's best friend's name?"</p>
-                <input type="radio" name="7" value="Skeeter" />
-                <p class="smallFont">Skeeter</p>
-                <input type="radio" name="7" value="Mark" />
-                <p class="smallFont">Mark</p>
-                <input type="radio" name="7" value="Zach" />
-                <p class="smallFont">Zach</p>
-                <input type="radio" name="7" value="Cody" />
-                <p class="smallFont">Cody</p>
-
-                <p>What was the name of the principal at Bayside High in Saved by the Bell?"</p>
-                <input type="radio" name="8" value="Mr. Zhou" />
-                <p class="smallFont">Mr. Zhou</p>
-                <input type="radio" name="8" value="Mr. Diggers" />
-                <p class="smallFont">Mr. Diggers</p>
-                <input type="radio" name="8" value="Mr. Belding" />
-                <p class="smallFont">Mr. Belding</p>
-                <input type="radio" name="8" value="Mr. Page" />
-                <p class="smallFont">Mr. Page</p>
-            </form>
-            <input type="submit" id="submit" value="Done" />
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="hidden-content">
+                        <p>Time Remaining: <span class="time-start">30</span></p>
+                        <form id="triviaForm">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #1</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">What was the first full length CGI movie?</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="1" value="A Bug's Life" />
+                                                        <span class="smallFont">A Bug's Life</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="1" value="Monster's Inc" />
+                                                        <span class="smallFont">Monster's Inc</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="1" value="Toy Story" />
+                                                        <span class="smallFont">Toy Story</span><br />
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="1" value="the Lion King" />
+                                                        <span class="smallFont">the Lion King</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #2</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">Which of these is NOT a name of one of the Spice
+                                                    Girls?</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="2" value="Sporty Spice" />
+                                                        <span class="smallFont">Sporty Spice</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="2" value="Fred Spice" />
+                                                        <span class="smallFont">Fred Spice</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="2" value="Scary Spice" />
+                                                        <span class="smallFont">Scary Spice</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="2" value="Posh Spice" />
+                                                        <span class="smallFont">Posh Spice</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #3</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">Which NBA team won the most titles in the 90s?</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="3" value="New York Knicks" />
+                                                        <span class="smallFont">New York Knicks</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="3" value="Portland Trailblazers" />
+                                                        <span class="smallFont">Portland Trailblazers</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="3" value="Los Angeles Lakers" />
+                                                        <span class="smallFont">Los Angeles Lakers</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="3" value="Chicago Bulls" />
+                                                        <span class="smallFont">Chicago Bulls</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #4</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">Which group released the hit song. "Smells Like
+                                                    Teen Spirit?</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="4" value="Nirvana" />
+                                                        <span class="smallFont">Nirvana</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="4" value="Backstreet Boys" />
+                                                        <span class="smallFont">Backstreet Boys</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="4" value="the Offspring" />
+                                                        <span class="smallFont">the Offspring</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="4" value="No Doubt" />
+                                                        <span class="smallFont">No Doubt</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #5</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">Which popular Disney movie featured the song,
+                                                    "Circle of Life?"</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="5" value="Aladdin" />
+                                                        <span class="smallFont">Aladdin</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="5" value="Hercules" />
+                                                        <span class="smallFont">Hercules</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="5" value="Mulan" />
+                                                        <span class="smallFont">Mulan</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="5" value="the Lion King" />
+                                                        <span class="smallFont">the Lion King</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #6</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">Finish this line from the Fresh Prince of
+                                                    Bel-Air theme song: "I <br />whistled for a cab and when
+                                                    it came near, the license plate said..."</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="6" value="Dice" />
+                                                        <span class="smallFont">Dice</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="6" value="Mirror" />
+                                                        <span class="smallFont">Mirror</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="6" value="Fresh" />
+                                                        <span class="smallFont">Fresh</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="6" value="Cab" />
+                                                        <span class="smallFont">Cab</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #7</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">What was Doug's best friend's name?"</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="7" value="Skeeter" />
+                                                        <span class="smallFont">Skeeter</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="7" value="Mark" />
+                                                        <span class="smallFont">Mark</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="7" value="Zach" />
+                                                        <span class="smallFont">Zach</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="7" value="Cody" />
+                                                        <span class="smallFont">Cody</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="card border-dark mb-3">
+                                            <div class="card-header">Trivia Question #8</div>
+                                            <div class="card-body my-color">
+                                                <h5 class="card-title">What was the name of the principal at Bayside
+                                                    High in Saved by the Bell?"</h5>
+                                                <div class="border-questions">
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="8" value="Mr. Zhou" />
+                                                        <span class="smallFont">Mr. Zhou</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="8" value="Mr. Diggers" />
+                                                        <span class="smallFont">Mr. Diggers</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="8" value="Mr. Belding" />
+                                                        <span class="smallFont">Zach</span>
+                                                    </div>
+                                                    <div class="q-wrapper">
+                                                        <input type="radio" name="8" value="Mr. Page" />
+                                                        <span class="smallFont">Mr. Page</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 center">
+                                    <input class="btn btn-primary" type="submit" value="Submit">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="assets/javascript/app.js"></script>
+        <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
