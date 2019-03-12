@@ -16,17 +16,24 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Totally Trivial Trivia!</h1>
-        <div class="startContent">
-            <div class="results">
-                <p><span class="allDone"></span></p>
-                <p>Correct Answers: <span class="itsCorrect"></span></p>
-                <p>Incorrect Answers: <span class="wrong"></span></p>
-                <p>Unanswered: <span class="notAnswered"></span></p>
+    <div class="container-fluid game-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="home-screen-intro">
+                        <h1>Total Trivial Trivia</h1>
+                        <div id="start-content">
+                            <div id="results">
+                                <p><span class="allDone"></span></p>
+                                <p>Correct Answers: <span class="itsCorrect"></span></p>
+                                <p>Incorrect Answers: <span class="wrong"></span></p>
+                                <p>Unanswered: <span class="notAnswered"></span></p>
+                            </div>
+                            <button class="btn btn-primary" id="start-button">Let's Get Started</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <button class="startButton">Start</button>
-        </div>
         <div class="hiddenContent">
             <p>Time Remaining: <span class="timeStart">30</span></p>
             <form id="triviaForm">
