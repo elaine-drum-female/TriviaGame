@@ -1,7 +1,7 @@
 body {
-    background:navy!important;
+    background: navy !important;
     font-size: 18px;
-    color:white!important;
+    color: white !important;
 }
 
 #hidden-content,
@@ -13,7 +13,7 @@ body {
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 7px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .game-background {
@@ -21,21 +21,21 @@ body {
     height: 100vh;
     position: relative;
     color: #fff;
-    background:url('../images/trivia-game-background.jpg')no-repeat;
-    background-size:cover;
-    background-position:center;
+    background: url('../images/trivia-game-background.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
     display: table;
 }
 
 .game-background:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-image: linear-gradient(to bottom right, navy, navy);
-        opacity: 0.6;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, navy, navy);
+    opacity: 0.6;
 }
 
 .home-screen-intro {
@@ -50,21 +50,22 @@ body {
 }
 
 .home-screen-intro h1 {
-    font-size:3.4em;
+    font-size: 3.4em;
 }
 
-#hidden-content p, span {
-    font-size:2.3em;
-    text-align:center;
+#hidden-content p,
+span {
+    font-size: 2.3em;
+    text-align: center;
 }
 
 .card-header,
 .my-color {
-    color:#000;
+    color: #000;
 }
 
 h5 {
-    font-size:1.1em!important;
+    font-size: 1.1em !important;
 }
 
 
@@ -73,22 +74,21 @@ h5 {
 }
 
 
-
 .smallFont {
     font-size: 14px;
     display: inline;
 }
 
 .center {
-    text-align:center;
-    margin:0 auto;
-    width:100%;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
 }
 
 
 
 @media screen and (min-width:992px) {
     .center {
-        width:50%;
+        width: 50%;
     }
 }
