@@ -68,6 +68,11 @@ body {
     text-align:center;
 }
 
+.card-header,
+.my-color {
+    color:#000;
+}
+
 h5 {
     font-size:1.1em!important;
 }
