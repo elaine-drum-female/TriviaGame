@@ -4,10 +4,15 @@ body {
     color:white!important;
 }
 
-
-.hiddenContent,
-.results {
+.hiddenContent{
     display: none;
+}
+
+.q-wrapper {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 7px;
+    margin-bottom:10px;
 }
 
 .container {
