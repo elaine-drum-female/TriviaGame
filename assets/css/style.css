@@ -1,9 +1,9 @@
-html {
+body {
+    background:navy!important;
     font-size: 18px;
-    background-image: url("../images/glenn-lim-1273611-unsplash.jpg");
-    background-size: cover;
-    height: 100vh;
+    color:white!important;
 }
+
 
 .hiddenContent,
 .results {
