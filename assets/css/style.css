@@ -4,7 +4,8 @@ body {
     color:white!important;
 }
 
-.hiddenContent{
+#hidden-content,
+#results {
     display: none;
 }
 
@@ -15,6 +16,7 @@ body {
     margin-bottom:10px;
 }
 
+
 .container {
     background: yellow;
     width: 600px;
@@ -22,6 +24,48 @@ body {
     margin-top: 20px;
     text-align: center;
     padding: 20px 0;
+}
+
+.game-background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    background:url('../images/trivia-game-background.jpg')no-repeat;
+    background-size:cover;
+    background-position:center;
+    display: table;
+}
+
+.game-background:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right, navy, navy);
+        opacity: 0.6;
+}
+
+.home-screen-intro {
+    top: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.home-screen-intro h1 {
+    font-size:3.4em;
+}
+
+#hidden-content p, span {
+    font-size:2.3em;
+    text-align:center;
 }
 
 h1 {
